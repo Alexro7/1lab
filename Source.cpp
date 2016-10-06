@@ -6,18 +6,18 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 	int k;
-	cout << "Ââåäèòå íîìåð äíÿ" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð´Ð½Ñ" << endl;
 	cin >> k;
 	switch (k)
 	{
-	case 1: cout <<"Ïîíåäåëüíèê" << endl; break;
-	case 2: cout << "Âòîðíèê" << endl; break;
-	case 3: cout << "Ñðåäà" << endl; break;
-	case 4: cout << "×åòâåðã" << endl; break;
-	case 5: cout << "Ïÿòíèöà" << endl; break;
-	case 6: cout << "Ñóááîòà" << endl; break;
-	case 7: cout << "Âîñêðåñåíüå" << endl; break;
-	default: cout << "Äíÿ ñ òàêèì íîìåðîì íå ñóùåñòâóåò" << endl;
+	case 1: cout <<"ÐŸÐ¾Ð½ÐµÐ´ÐµÐ»ÑŒÐ½Ð¸Ðº" << endl; break;
+	case 2: cout << "Ð’Ñ‚Ð¾Ñ€Ð½Ð¸Ðº" << endl; break;
+	case 3: cout << "Ð¡Ñ€ÐµÐ´Ð°" << endl; break;
+	case 4: cout << "Ð§ÐµÑ‚Ð²ÐµÑ€Ð³" << endl; break;
+	case 5: cout << "ÐŸÑÑ‚Ð½Ð¸Ñ†Ð°" << endl; break;
+	case 6: cout << "Ð¡ÑƒÐ±Ð±Ð¾Ñ‚Ð°" << endl; break;
+	case 7: cout << "Ð’Ð¾ÑÐºÑ€ÐµÑÐµÐ½ÑŒÐµ" << endl; break;
+	default: cout << "Ð”Ð½Ñ Ñ Ñ‚Ð°ÐºÐ¸Ð¼ Ð½Ð¾Ð¼ÐµÑ€Ð¾Ð¼ Ð½Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚" << endl;
 	}
 	system("pause");
 
